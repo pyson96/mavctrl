@@ -7,6 +7,7 @@ sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 sock.bind(('0.0.0.0', 18570)) 
 sock.settimeout(2.0)
 
+print("trying to receive data...")
 try:
     while True:
         try:
