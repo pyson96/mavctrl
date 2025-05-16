@@ -4,7 +4,7 @@ from pymavlink.dialects.v20 import common as mavlink2
 
 mav = mavlink2.MAVLink(None)
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-sock.bind(('0.0.0.0', 18570)) 
+sock.bind(('0.0.0.0', 14540)) 
 sock.settimeout(2.0)
 
 print("trying to receive data...")
